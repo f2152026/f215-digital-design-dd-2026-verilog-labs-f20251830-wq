@@ -27,6 +27,5 @@ module ripple_adder(
   FA_Gate fa2 (.a(a[2]), .b(b[2]), .cin(c2),  .sum(sum[2]), .cout(c3));
   FA_Gate fa3 (.a(a[3]), .b(b[3]), .cin(c3),  .sum(sum[3]), .cout(cout));
 
-  /* fa0 connects to fa1 and so forth */
 
 endmodule
